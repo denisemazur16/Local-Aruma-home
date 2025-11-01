@@ -1,0 +1,90 @@
+main {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fefdfc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4B4B4B;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+
+  .item {
+    display: grid;
+    grid-template-columns: 1fr 100px 40px 120px 120px;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    padding: 8px;
+  }
+  
+  .item select,
+  .item input[type="number"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .item input[type="number"] {
+    text-align: center;
+  }
+  
+  .item .btn-del {
+    border: 1px solid #c33;
+    background: white;
+    color: #c33;
+    width: 36px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .item-precio{
+    text-align: right;
+    font-size: 14px;
+  }
+  .item-subtotal {
+    text-align: right;
+    font-size: 14px;
+  }
+
+  #addItem {
+    background-color: #A8B19A;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .resultados {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
+  .resultados h3 {
+    margin: 0 0 8px;
+  }
+  
+  .resultados h4 {
+    margin: 12px 0 6px;
+  }
+  
+  .resultados p {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+  
